@@ -30,7 +30,7 @@ class EmployeeViewController: UIViewController {
   }
   
   // MARK:- Helper methods
-  func area(width:Double , height:Double) -> Double {
+  func rectangleArea(width:Double , height:Double) -> Double {
     return width * height
   }
   

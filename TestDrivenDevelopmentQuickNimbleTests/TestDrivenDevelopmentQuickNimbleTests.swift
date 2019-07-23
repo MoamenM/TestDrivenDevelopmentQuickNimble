@@ -24,9 +24,9 @@ class TestDrivenDevelopmentQuickNimbleTests: QuickSpec {
       }
       
       context("Helper methods") {
-        it("callculating square area") {
-          let area = viewController.area(width: 4, height: 4)
-          expect(area).to(equal(16))
+        it("callculating rectangle area") {
+          let area = viewController.rectangleArea(width: 4, height: 6)
+          expect(area).to(equal(24))
         }
       }
       
